@@ -102,7 +102,7 @@ With this table containing the average gene expression per time point, we can ca
 
 $$TAI_s = \frac{\sum_{i=1}^n ps_i e_i}{\sum_{i=1}^n e_i}$$
 
-* $ps_i$ is the phylostratum number of the gene *i* and $e_i$ its expression.
+* *ps_i* is the phylostratum number of the gene *i* and *e_i* its expression.
 
 
 
