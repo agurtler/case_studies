@@ -101,7 +101,8 @@ The final table has 12892 rows and 61 columns, for 12892 genes and 61 time point
 With this table containing the average gene expression per time point, we can calculate the transcriptome gene index (TAI) of each time point as decribed in the paper. 
 
 $$TAI_s = \frac{\sum_{i=1}^n ps_i e_i}{\sum_{i=1}^n e_i}$$
-
+$$TAI_s = \frac{\sum_{i=1}^n ps_i e_i}{\sum_{i=1}^n e_i}$$
+![fe](http://latex.codecogs.com/gif.latex?%24%24TAI_s%20%3D%20%5Cfrac%7B%5Csum_%7Bi%3D1%7D%5En%20ps_i%20e_i%7D%7B%5Csum_%7Bi%3D1%7D%5En%20e_i%7D%24%24)
 * *ps_i* is the phylostratum number of the gene *i* and *e_i* its expression.
 
 
