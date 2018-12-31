@@ -100,9 +100,8 @@ The final table has 12892 rows and 61 columns, for 12892 genes and 61 time point
 
 With this table containing the average gene expression per time point, we can calculate the transcriptome gene index (TAI) of each time point as decribed in the paper. 
 
-$$TAI_s = \frac{\sum_{i=1}^n ps_i e_i}{\sum_{i=1}^n e_i}$$
-$$TAI_s = \frac{\sum_{i=1}^n ps_i e_i}{\sum_{i=1}^n e_i}$$
-![fe](http://latex.codecogs.com/gif.latex?%24%24TAI_s%20%3D%20%5Cfrac%7B%5Csum_%7Bi%3D1%7D%5En%20ps_i%20e_i%7D%7B%5Csum_%7Bi%3D1%7D%5En%20e_i%7D%24%24)
+
+![equation](http://latex.codecogs.com/gif.latex?%24%24TAI_s%20%3D%20%5Cfrac%7B%5Csum_%7Bi%3D1%7D%5En%20ps_i%20e_i%7D%7B%5Csum_%7Bi%3D1%7D%5En%20e_i%7D%24%24)
 * *ps_i* is the phylostratum number of the gene *i* and *e_i* its expression.
 
 
@@ -157,6 +156,7 @@ However, if we look at the distribution of gene expression values (Figure 2), we
 
 
 ![output_15_1.png](attachments/759158ae.png)
+
 *Figure 3: **Distribution of the gene expression values with reduced y-axis**.*
 
 We reduced the y-axis (Figure 3) to be able to see the data which contribute to the hourglass pattern. 3029.85 is the mean expression value. In the reduced histogramm, we see that a lot of values are above this mean and some are very important (larger than 350'000). There are the ones which contribute the most to the hourglass pattern. 
